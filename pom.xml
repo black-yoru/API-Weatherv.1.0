@@ -70,6 +70,33 @@
             <version>2.29.1</version>
         </dependency>
 
+
+        <!-- https://mvnrepository.com/artifact/org.awaitility/awaitility -->
+<!--    bertujuan untuk waktu tunggu endpoint dalam proses API atau istiliah expilicit wait
+        agar test lebih cepat dan mudah di maintain
+-->
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <version>4.3.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.5.5</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>3.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
